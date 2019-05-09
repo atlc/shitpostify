@@ -1,7 +1,7 @@
 {
     "name": "shitpostify",
-    "version": "1.0.1",
-    "description": "Right click highlighted text to turn it into an emojipasta shitpost",
+    "version": "1.0.2",
+    "description": "Right-click highlighted text to turn it into an emoji-laden copypasta shitpost!",
     "manifest_version": 2,
     "permissions": [
         "contextMenus"

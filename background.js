@@ -10,7 +10,19 @@ function shitpostify(pasta) {
 		char = char.replace(' ', randomEmoji);
 		return char = randomCased ? char.toUpperCase() : char.toLowerCase();
     }).join('');
-    alert(pasta);
+
+    if (confirm(`Copy to clipboard?\n\n${pasta}`)) {
+        copyToClipboard(pasta);
+    }
+}
+
+function copyToClipboard(text) {
+    let tempElement = document.createElement("textarea");
+    document.body.appendChild(tempElement);
+    tempElement.value = text;
+    tempElement.select();
+    document.execCommand("copy");
+    tempElement.parentNode.removeChild(tempElement);
 }
 
 chrome.runtime.onInstalled.addListener(function() {
@@ -20,7 +32,6 @@ chrome.runtime.onInstalled.addListener(function() {
         contexts:["selection"]
     });
 });
-
 
 chrome.contextMenus.onClicked.addListener(function(info, tab) {
     if (info.menuItemId == "shitpostify-menu") {
