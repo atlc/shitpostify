@@ -1,0 +1,13 @@
+{
+    "name": "shitpostify",
+    "version": "1.0",
+    "description": "Highlight text and then right click it to instantly turn text into an emojipasta shitpost",
+    "manifest_version": 2,
+    "permissions": [
+        "contextMenus"
+      ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+  }
