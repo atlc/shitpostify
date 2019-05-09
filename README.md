@@ -8,18 +8,19 @@ All you need to do is install the extension, right click on a highlighted block 
 
 ## Installation:
 
-Until this is published on the Chrome store, it will have to be installed from source.
+This is published on the [Chrome Web Store](https://chrome.google.com/webstore/detail/shitpostify/dojihbiflikelfjnoaljoeiklhgdnijp), but if you would like to compile it from source, follow the below instructions.
 
 - Download the source code by going to the `"Clone or Download"` button, and click `"Download ZIP"`.
-- Go to [chrome://extensions](chrome://extensions) and make sure developer mode is enabled (top right)
-- Select `"Load unpacked"` and upload the `.zip` you just downloaded.
+- Extract the files
+- Go to [chrome://extensions](chrome://extensions) and make sure `"developer mode"` is enabled (top right corner)
+- Select `"Load unpacked"` (top left corner) and upload the unzipped folder.
 
 You're done!
 
 ---
 
 ## Demo media: 
-(looks like Loom does not show the right click menu or the popup box with the text, but you get the gist. I'll use a better screen recording later)
+(looks like Loom recordings do not capture the right click menu or the popup box with the text, but you get the gist. I'll use a better screen recording later)
 
 ![](images/demo.gif)
 
