@@ -1,7 +1,7 @@
 {
     "name": "shitpostify",
-    "version": "1.0.2",
-    "description": "Right-click highlighted text to turn it into an emoji-laden copypasta shitpost!",
+    "version": "1.0.3",
+    "description": "Right-click highlighted text to turn it into an EMOJi🚉lAdEn♂️cOpYpasTA💰sHiTpoSt!",
     "manifest_version": 2,
     "permissions": [
         "contextMenus"
@@ -11,9 +11,9 @@
         "persistent": false
     },
     "icons": { 
-      "16": "images/icons/16.png",
-      "32": "images/icons/32.png",
-      "64": "images/icons/64.png",
-     "128": "images/icons/128.png"
+      "16": "/icons/16.png",
+      "32": "/icons/32.png",
+      "64": "/icons/64.png",
+     "128": "/icons/128.png"
     }
   }

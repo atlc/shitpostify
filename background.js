@@ -28,7 +28,7 @@ function copyToClipboard(text) {
 chrome.runtime.onInstalled.addListener(function() {
     chrome.contextMenus.create({
         id: "shitpostify-menu",
-        title: "Shitpostify highlighted text?",
+        title: "shItPosTiFY🚸HighLigHted🐨TEXT?",
         contexts:["selection"]
     });
 });
