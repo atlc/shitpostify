@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>ShitpOsTIfY🕥🦐🚰🐙🈚🥧🔉🚶‍♂️</title>
+    <script src="./gh-pages.js"></script>
+</head>
+
+<body class="bg-secondary">
+    <div class="jumbotron bg-dark text-white">
+        <h1 class="display-4">ShitpOsTIfY</h1>
+        <p class="lead">Needed a way to quickly mock someone’s comment online, with minimal effort? Thankfully,
+            shitpostify fills that gap for you! All you need to do is install the extension, right click on a
+            highlighted block of text, then click "Shitpostify highlighted text?" to see that Internet Tough Guy’s
+            comment ridiculed.</p>
+        <hr class="my-4 bg-white">
+        <div class="row">
+            <div class="col">
+                <p class="lead"><a href="https://chrome.google.com/webstore/detail/shitpostify/dojihbiflikelfjnoaljoeiklhgdnijp?hl=en-US" class="btn bg-secondary btn-lg text-white">Install on the Chrome Store</a></p>
+            </div>
+            <div class="col">
+                <p class="lead"><a href="https://github.com/atlc/shitpostify" class="btn bg-secondary btn-lg text-white">View source code on GitHub</a></p>
+            </div>
+        </div>
+    </div>
+    <form class="row justify-content-center">
+        <div class="form-group bg-dark text-white col-11">
+            <label for="originalTextArea"><p class="lead">Paste text to shitpostify here:</p></label>
+            <textarea id="originalTextArea" cols="30" rows="10" class="form-control" placeholder="Needed a way to quickly mock someone’s comment online, with minimal effort? Thankfully, shitpostify fills that gap for you! All you need to do is install the extension, right click on a highlighted block of text, then click 'Shitpostify highlighted text?' to see that Internet Tough Guy’s comment ridiculed."></textarea>
+            <div class="row"><p></p></div>
+            <div class="row">
+                <button onclick="let newText = shitpostify(document.getElementById('originalTextArea').value); document.getElementById('originalTextArea').value = newText;" class="btn btn-lg btn-danger" type="button">ShitpOsTIfY</button>
+                <button onclick="copyToClipboard(document.getElementById('originalTextArea').value)"class="btn btn-lg btn-warning">Copy to clipboard?</button>
+                <button onclick="document.getElementById('originalTextArea').value = ''" class="btn btn-lg btn-warning">Clear text field?</button>
+            </div>
+            <div class="row"><p></p></div>
+        </div>
+    </form>>
+</body>
+</html>
